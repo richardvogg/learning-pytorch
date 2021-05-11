@@ -118,3 +118,4 @@ for img in imgs:
 model_img[600].print()
 model_img[600].show()
 model_img[700].pandas().xyxy[0]
+
