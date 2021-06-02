@@ -72,7 +72,8 @@ results3.save("C:/Richard/Fotos")
 
 import cv2
 
-cap = cv2.VideoCapture("C:/Richard/Fotos/Ohne Titel.mp4")
+#cap = cv2.VideoCapture("C:/Richard/Fotos/Ohne Titel.mp4")
+cap = cv2.VideoCapture("C:/Richard/Smartphone/Bilder3/Test.mp4")
 
 #%%
 
@@ -113,6 +114,7 @@ for img in imgs:
     results4 = model(img)
     model_img.append(results4)
     
+#%%    
 # Check frames
 
 model_img[600].print()
